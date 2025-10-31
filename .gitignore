@@ -1,0 +1,76 @@
+# Environnements Python
+venv/
+.env/
+.venv/
+env/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+
+
+# Fichiers personnels
+PDF_*.pdf
+instruction_conf_for_iris.txt
+PDF/
+
+# Garder le dossier data mais exclure le contenu (sauf .gitkeep)
+data/*
+!data/.gitkeep
+
+
+# Fichiers de données volumineux
+data/cifar-10-python.tar.gz
+data/cifar-10-batches-py/
+*.tar.gz
+*.zip
+*.7z
+
+data/cifar-10-python.tar.gz
+data/cifar-10-batches-py/
+data/batches.meta
+data/data_batch_1
+data/data_batch_2
+data/data_batch_3
+data/data_batch_4
+data/data_batch_5
+data/readme.html
+data/test_batch
